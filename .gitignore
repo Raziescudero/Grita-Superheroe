@@ -1,0 +1,36 @@
+# Unreal Engine: archivos generados
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.idea/
+.vscode/
+*.sln
+*.xcodeproj/
+*.xcworkspace/
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Sistema operativo
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+osc-venv/
+
+# Whisper.cpp: compilación y modelos descargados
+build/
+models/*.bin
+
+# Secretos y configuraciones locales
+.env
+.env.*
+!.env.example
